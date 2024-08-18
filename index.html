@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>what do animals like?</title>
+</head>
+
+<body>
+    <div class="container hide">
+        <div class="wrapper">
+            <div class="img-animals">
+                <div class="img-animal" ondrop="dDrop()" ondragover="nDrop()">
+                    <img id="cat-img" data-index='1' src="image/animals/cat-img.png" alt="cat-img" class="image-anmls">
+                </div>
+                <div class="img-animal" ondrop="dDrop()" ondragover="nDrop()">
+                    <img id="chiken-img" data-index='2' src="image/animals/chiken-img.png" alt="chiken-img"
+                        class="image-anmls">
+                </div>
+                <div class="img-animal" ondrop="dDrop()" ondragover="nDrop()">
+                    <img id="cow-img" data-index='3' src="image/animals/cow-img.png" alt="cow-img" class="image-anmls">
+                </div>
+                <div class="img-animal" ondrop="dDrop()" ondragover="nDrop()">
+                    <img id="dog-img" data-index='4' src="image/animals/dog-img.png" alt="dog-img" class="image-anmls">
+                </div>
+                <div class="img-animal" ondrop="dDrop()" ondragover="nDrop()">
+                    <img id="lion-img" data-index='5' src="image/animals/lion-img.png" alt="lion-img"
+                        class="image-anmls">
+                </div>
+                <div class="img-animal" ondrop="dDrop()" ondragover="nDrop()">
+                    <img id="pig-img" data-index='6' src="image/animals/pig-img.png" alt="pig-img" class="image-anmls">
+                </div>
+            </div>
+            <div class="img-foods">
+                <div class="img-food" ondragstart="dStart()" draggable="true">
+                    <img id="steak-img" data-index='5' src="image/food/steak-img.png" alt="steak-img"
+                        class="image-food">
+                </div>
+                <div class="img-food" ondragstart="dStart()" draggable="true">
+                    <img id="potato-img" data-index='6' src="image/food/potato-img.png" alt="potato-img"
+                        class="image-food">
+                </div>
+                <div class="img-food" ondragstart="dStart()" draggable="true">
+                    <img id="bone-img" data-index='4' src="image/food/bone-img.png" alt="bone-img" class="image-food">
+                </div>
+                <div class="img-food" ondragstart="dStart()" draggable="true">
+                    <img id="milk-img" data-index='1' src="image/food/milk-img.png" alt="milk-img" class="image-food">
+                </div>
+                <div class="img-food" ondragstart="dStart()" draggable="true">
+                    <img id="wheat-img" data-index='2' src="image/food/wheat.png" alt="wheat-img" class="image-food">
+                </div>
+                <div class="img-food" ondragstart="dStart()" draggable="true">
+                    <img id="grass-img" data-index='3' src="image/food/grass.png" alt="grass-img" class="image-food">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal"></div>
+    <div class="modal-error"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
